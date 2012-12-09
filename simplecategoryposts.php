@@ -4,7 +4,7 @@ Plugin Name: Simple Category Posts
 Plugin URI: http://www.hostdog.gr/
 Description: Creates a list of posts from specified categories (W3C Valid)
 Author: Spyros Vlachopoulos
-Version: 1
+Version: 1.0.0
 Author URI: http://www.hostdog.gr/
 */
  
