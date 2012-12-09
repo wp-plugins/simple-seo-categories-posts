@@ -189,7 +189,7 @@ class simpleCategoryPosts extends WP_Widget {
           $scporder = array();
           $feat_image = '';
           $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
-          $pluginurl = site_url('/wp-content/plugins/simplecategoryposts/timthumb.php');
+          $pluginurl = site_url('/wp-content/plugins/simple-seo-categories-posts/timthumb.php');
           
           if ($displthumb == 'displthumb' && $feat_image != '') { // get thumb
           $scporder[$thumborder] = '
