@@ -4,7 +4,7 @@ Donate link: https://www.hostdog.gr/en/blog/simple-seo-categories-posts-widget-w
 Tags: posts widget, categories posts widget, post with thumb widget, latest posts
 Requires at least: 3.2
 Tested up to: 3.4.2
-Stable tag: 1.0
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
