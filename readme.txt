@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: spyrosvl
-Donate link: https://www.hostdog.gr/en/blog/simple-seo-categories-posts-widget-wordpress
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RHE22U984DL9C
 Tags: posts widget, categories posts widget, post with thumb widget, latest posts
 Requires at least: 3.2
 Tested up to: 3.4.2
