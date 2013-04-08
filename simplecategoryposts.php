@@ -4,7 +4,7 @@ Plugin Name: Simple Category Posts
 Plugin URI: http://www.hostdog.gr/
 Description: Creates a list of posts from specified categories (W3C Valid)
 Author: Spyros Vlachopoulos
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://www.hostdog.gr/
 */
  
@@ -164,13 +164,13 @@ class simpleCategoryPosts extends WP_Widget {
       LEFT JOIN $wpdb->term_relationships ON (wposts.ID = $wpdb->term_relationships.object_id)
       LEFT JOIN $wpdb->term_taxonomy ON ($wpdb->term_relationships.term_taxonomy_id = $wpdb->term_taxonomy.term_taxonomy_id)
     WHERE wpostmeta.meta_value <= NOW()
-      AND $wpdb->term_taxonomy.taxonomy = 'category'
       AND wposts.post_status = 'publish' 
-      AND wposts.post_type = 'post'
       AND $wpdb->term_taxonomy.term_id IN(". $cid .")
     ORDER BY wposts.". $orderby ." ". strtoupper($orderascdesc) ."
     LIMIT 0,".$numposts." 
     ";
+    // AND $wpdb->term_taxonomy.taxonomy = 'category'
+    // AND wposts.post_type = 'post'
     
     $scposts = $wpdb->get_results($scpquery, OBJECT);
     

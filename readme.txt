@@ -3,8 +3,8 @@ Contributors: spyrosvl
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RHE22U984DL9C
 Tags: posts widget, categories posts widget, post with thumb widget, latest posts
 Requires at least: 3.2
-Tested up to: 3.4.2
-Stable tag: 1.0.0
+Tested up to: 3.5.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,11 +55,19 @@ Please use the support forum of the plugin on wordpress.org
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+
+Removed two lines from the query to make it work with custom post types
+
+= 1.0.0 =
 
 * Initial version.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+
+Now it works with custom post types
 
 = 1.0 =
 
