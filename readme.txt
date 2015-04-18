@@ -38,7 +38,7 @@ Simple SEO Categories Posts is a plugin/widget, for displaying on your site the 
 * Date Order
 * Author Order
 
-[Detailed description and guide](https://www.hostdog.gr/en/blog/simple-seo-categories-posts-widget-wordpress)
+[Brought to you by hostivate.com](https://www.hostivate.com) and [nitroweb.gr](http://www.nitroweb.gr)
 
 == Installation ==
 
