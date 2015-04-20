@@ -4,7 +4,7 @@ Plugin Name: Simple Category Posts
 Plugin URI: http://www.nitroweb.gr/
 Description: Creates a list of posts from specified categories (W3C Valid)
 Author: Spyros Vlachopoulos
-Version: 1.0.3
+Version: 1.0.4
 Author URI: http://www.hostivate.com/
 */
  
@@ -246,7 +246,7 @@ class simpleCategoryPosts extends WP_Widget {
           }
         
           if ($exclength > 0 && $displexc == 'displexc') { // get excerpt
-            $scporder[$excorder] = '<div class="scptext">'. wp_trim_words(strip_tags(get_the_content()), $exclength, '&hellip;') .'</div>'; 
+            $scporder[$excorder] = '<div class="scptext">'. wp_trim_words(strip_tags(__(get_the_content())), $exclength, '&hellip;') .'</div>'; 
           }
           if ($exclength == 0 && $displexc == 'displexc') {
             $scporder[$excorder] = '<div class="scptext">'. get_the_excerpt() .'</div>'; 

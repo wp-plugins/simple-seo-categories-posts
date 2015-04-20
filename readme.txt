@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: posts widget, categories posts widget, post with thumb widget, latest posts
 Requires at least: 3.2
 Tested up to: 4.1.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,7 +38,7 @@ Simple SEO Categories Posts is a plugin/widget, for displaying on your site the 
 * Date Order
 * Author Order
 
-[Brought to you by hostivate.com](https://www.hostivate.com) and [nitroweb.gr](http://www.nitroweb.gr)
+Brought to you by [hostivate.com](https://www.hostivate.com) and [nitroweb.gr](http://www.nitroweb.gr)
 
 == Installation ==
 
@@ -55,6 +55,10 @@ Please use the support forum of the plugin on wordpress.org
 1. Widget admin screenshot.
 
 == Changelog ==
+
+= 1.0.4 =
+
+* Minor code change to support q/x/Translate
 
 = 1.0.3 =
 
